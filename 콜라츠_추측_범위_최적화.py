@@ -11,7 +11,6 @@ while max==0 or  sx<=max:
                 x=(3*x+1)/2
         else:
                 x=x/2
-        print(x)
     sx=sx+1
 sx=sx-1
 print(str(min)+"부터 "+ str(sx)+"까지의 수에서 콜라츠 추측이 성립합니다")
