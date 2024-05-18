@@ -8,7 +8,7 @@ while max==0 or  sx<=max:
     x=int(sx)
     while not x==1:
         if(x%2==1):
-                x=3*x+1
+                x=(3*x+1)/2
         else:
                 x=x/2
         print(x)
