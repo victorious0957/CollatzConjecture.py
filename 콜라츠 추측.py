@@ -1,4 +1,4 @@
-x=int(input("원하는 숫자 입력"))
+x=int(input("원하는 숫자 입력\n"))
 while not x==1:
     if(x%2==1):
             x=3*x+1
